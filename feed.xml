@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-21T09:46:32+00:00</updated><id>/feed.xml</id><title type="html">Planning Twitter Bot</title><subtitle>The Planning Twitter Bot english project.  </subtitle><entry><title type="html">Golang</title><link href="/golang/discovery/2018/11/07/golang.html" rel="alternate" type="text/html" title="Golang" /><published>2018-11-07T10:23:58+00:00</published><updated>2018-11-07T10:23:58+00:00</updated><id>/golang/discovery/2018/11/07/golang</id><content type="html" xml:base="/golang/discovery/2018/11/07/golang.html">&lt;p&gt;&lt;strong&gt;Golang&lt;/strong&gt; is a programming language created by &lt;strong&gt;Google&lt;/strong&gt; used in a lot of projects, like &lt;strong&gt;Docker, Kubernetes, Uber, …&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-21T09:48:00+00:00</updated><id>/feed.xml</id><title type="html">Planning Twitter Bot</title><subtitle>The Planning Twitter Bot english project.  </subtitle><entry><title type="html">English project planning</title><link href="/2018/11/07/Planning.html" rel="alternate" type="text/html" title="English project planning" /><published>2018-11-07T10:50:50+00:00</published><updated>2018-11-07T10:50:50+00:00</updated><id>/2018/11/07/Planning</id><content type="html" xml:base="/2018/11/07/Planning.html">&lt;h3 id=&quot;planning-&quot;&gt;&lt;strong&gt;Planning :&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson 1 :&lt;/strong&gt; Learning GO (2 hours)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson 2 :&lt;/strong&gt; Serverless computing with AWS (2 hours)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson 3 :&lt;/strong&gt; Setting up environnement (2 hours)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lessons 4-7 :&lt;/strong&gt; Work, programming the project (8 hours)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson 8 :&lt;/strong&gt; Prepar the presentation (2 hours)&lt;/p&gt;
+
+&lt;p&gt;Total : 16 hours&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Made by Elliot&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Planning :</summary></entry><entry><title type="html">Golang</title><link href="/golang/discovery/2018/11/07/golang.html" rel="alternate" type="text/html" title="Golang" /><published>2018-11-07T10:23:58+00:00</published><updated>2018-11-07T10:23:58+00:00</updated><id>/golang/discovery/2018/11/07/golang</id><content type="html" xml:base="/golang/discovery/2018/11/07/golang.html">&lt;p&gt;&lt;strong&gt;Golang&lt;/strong&gt; is a programming language created by &lt;strong&gt;Google&lt;/strong&gt; used in a lot of projects, like &lt;strong&gt;Docker, Kubernetes, Uber, …&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This language seems to be a really complete programming language and permit to do a lot of things, to make syntax clear and concise, and make complex calculations.&lt;/p&gt;
 
@@ -28,7 +42,7 @@ With &lt;strong&gt;Golang&lt;/strong&gt;, you can return more than one arguments
   &lt;li&gt;A weekly planning &lt;strong&gt;every sunday&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We will use the &lt;a href=&quot;https://english-project.tgarcin.fr/golang/discovery/2018/11/07/golang.html&quot;&gt;Golang&lt;/a&gt; to program it, and it will be host on AWS.&lt;/p&gt;
+&lt;p&gt;We will use the &lt;a href=&quot;https://english-project.tgarcin.fr/golang/discovery/2018/11/07/golang.html&quot;&gt;Golang&lt;/a&gt; to program it, and it will be host on &lt;strong&gt;AWS&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;If this project is too easy to realize, a good next step is to add a graphical planning generation (an image) that is send every week.&lt;/p&gt;
 
