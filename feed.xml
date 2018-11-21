@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-21T09:31:33+00:00</updated><id>/feed.xml</id><title type="html">Planning Twitter Bot</title><subtitle>The Planning Twitter Bot english project.  </subtitle><entry><title type="html">Golang</title><link href="/golang/discovery/2018/11/07/golang.html" rel="alternate" type="text/html" title="Golang" /><published>2018-11-07T10:23:58+00:00</published><updated>2018-11-07T10:23:58+00:00</updated><id>/golang/discovery/2018/11/07/golang</id><content type="html" xml:base="/golang/discovery/2018/11/07/golang.html">&lt;p&gt;&lt;strong&gt;Golang&lt;/strong&gt; is a programming language created by &lt;strong&gt;Google&lt;/strong&gt; used in a lot of projects, like &lt;strong&gt;Docker, Kubernetes, Uber, …&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-21T09:43:16+00:00</updated><id>/feed.xml</id><title type="html">Planning Twitter Bot</title><subtitle>The Planning Twitter Bot english project.  </subtitle><entry><title type="html">Golang</title><link href="/golang/discovery/2018/11/07/golang.html" rel="alternate" type="text/html" title="Golang" /><published>2018-11-07T10:23:58+00:00</published><updated>2018-11-07T10:23:58+00:00</updated><id>/golang/discovery/2018/11/07/golang</id><content type="html" xml:base="/golang/discovery/2018/11/07/golang.html">&lt;p&gt;&lt;strong&gt;Golang&lt;/strong&gt; is a programming language created by &lt;strong&gt;Google&lt;/strong&gt; used in a lot of projects, like &lt;strong&gt;Docker, Kubernetes, Uber, …&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This language seems to be a really complete programming language and permit to do a lot of things, to make syntax clear and concise, and make complex calculations.&lt;/p&gt;
 
@@ -21,4 +21,22 @@ With &lt;strong&gt;Golang&lt;/strong&gt;, you can return more than one arguments
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;Made by Tony&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Golang is a programming language created by Google used in a lot of projects, like Docker, Kubernetes, Uber, …</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Made by Tony&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Golang is a programming language created by Google used in a lot of projects, like Docker, Kubernetes, Uber, …</summary></entry><entry><title type="html">Project</title><link href="/2018/11/07/project.html" rel="alternate" type="text/html" title="Project" /><published>2018-11-07T00:00:00+00:00</published><updated>2018-11-07T00:00:00+00:00</updated><id>/2018/11/07/project</id><content type="html" xml:base="/2018/11/07/project.html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Project”
+date:   2018-11-07 11:30:58 +0100
+categories: project golang discovery
+—&lt;/p&gt;
+
+&lt;p&gt;We are going to program a &lt;strong&gt;Twitter bot&lt;/strong&gt; named &lt;strong&gt;Planning Twitter Bot&lt;/strong&gt; that is sending :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The next lesson &lt;strong&gt;every hour&lt;/strong&gt;, 15 minutes before&lt;/li&gt;
+  &lt;li&gt;A daily planning &lt;strong&gt;every evening&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;A weekly planning &lt;strong&gt;every sunday&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will use the &lt;a href=&quot;https://english-project.tgarcin.fr/golang/discovery/2018/11/07/golang.html&quot;&gt;Golang&lt;/a&gt; to program it, and it will be host on AWS.&lt;/p&gt;
+
+&lt;p&gt;If this project is too easy to realize, a good next step is to add a graphical planning generation (an image) that is send every week.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Made by Sandro&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">layout: post title: “Project” date: 2018-11-07 11:30:58 +0100 categories: project golang discovery —</summary></entry></feed>
