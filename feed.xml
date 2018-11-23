@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-23T08:43:21+00:00</updated><id>/feed.xml</id><title type="html">Planning Twitter Bot</title><subtitle>The Planning Twitter Bot english project.  </subtitle><entry><title type="html">English project planning</title><link href="/2018/11/07/Planning.html" rel="alternate" type="text/html" title="English project planning" /><published>2018-11-07T10:50:50+00:00</published><updated>2018-11-07T10:50:50+00:00</updated><id>/2018/11/07/Planning</id><content type="html" xml:base="/2018/11/07/Planning.html">&lt;h3 id=&quot;planning-&quot;&gt;&lt;strong&gt;Planning :&lt;/strong&gt;&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-23T09:30:25+00:00</updated><id>/feed.xml</id><title type="html">Planning Twitter Bot</title><subtitle>The Planning Twitter Bot english project.  </subtitle><entry><title type="html">AWS Lambda</title><link href="/aws/lambda/cloud/computing/2018/11/21/Lambda.html" rel="alternate" type="text/html" title="AWS Lambda" /><published>2018-11-21T10:23:58+00:00</published><updated>2018-11-21T10:23:58+00:00</updated><id>/aws/lambda/cloud/computing/2018/11/21/Lambda</id><content type="html" xml:base="/aws/lambda/cloud/computing/2018/11/21/Lambda.html">&lt;h1 id=&quot;aws-lambda&quot;&gt;AWS Lambda&lt;/h1&gt;
+
+&lt;p&gt;As a part of our project, we decided to deploy our Golang code to the cloud computing platform &lt;strong&gt;Amazon Web Services (AWS)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We made this choice because AWS is relatively easy to use, and is basically free for students.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-aws&quot;&gt;What is AWS&lt;/h2&gt;
+
+&lt;p&gt;Amazon Web Services (or simply AWS) is a platform of cloud computing created by Amazon. It provide a great number of services, such as compute power (virtual machines), file storage, domain hosting, machine learning, web application hosting, etc … The basic premise of AWS is that you pay for what you use and only what you use. It is available in most regions of the world.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-aws-lambda&quot;&gt;What is AWS Lambda&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS Lambda&lt;/strong&gt; is a service provided by AWS. It is &lt;em&gt;FaaS&lt;/em&gt;, Function as a Service. The core concept is that you upload your code to the service, and you let AWS manage the servers required to run the code.&lt;/p&gt;
+
+&lt;p&gt;This is called &lt;strong&gt;serverless architecture&lt;/strong&gt;, because the user doesn’t have to manage the servers that run his code.&lt;/p&gt;
+
+&lt;p&gt;In AWS Lambda, you create Lambda Functions, which are pieces of code that react to events.&lt;/p&gt;
+
+&lt;p&gt;An event is generally related to the cloud platform the function is hosted on: for instance, you can trigger a Lambda function any time a file is uploaded to a storage service&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;handler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lambda&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lambda&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S3Event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;The uploaded file is &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In the above code, the Lambda is triggered when a file is uploaded to S3 (AWS Simple Storage Service), and prints the name of the file.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Made by Thierry&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">AWS Lambda</summary></entry><entry><title type="html">English project planning</title><link href="/2018/11/07/Planning.html" rel="alternate" type="text/html" title="English project planning" /><published>2018-11-07T10:50:50+00:00</published><updated>2018-11-07T10:50:50+00:00</updated><id>/2018/11/07/Planning</id><content type="html" xml:base="/2018/11/07/Planning.html">&lt;h3 id=&quot;planning-&quot;&gt;&lt;strong&gt;Planning :&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Lesson 1 :&lt;/strong&gt; Learning GO (2 hours)&lt;/p&gt;
 
